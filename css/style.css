@@ -1,0 +1,218 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav{
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+}
+nav ul li{
+    margin-right: 60px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*here section*/
+.hero-image{
+    background-image: url("https://cdn.pixabay.com/photo/2024/04/10/00/46/hospital-8687007_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+.hero-text h1{
+    font-size: 40px;
+    margin: 0;
+    /*color: white;*/
+    text-decoration: white;
+}
+.hero-text p{
+    font-size: 22px;
+
+}
+#cta-btn{
+   background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+}
+/*Facilities*/
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.gallery img{
+    width: 30%;
+    border-radius: 8px;
+    height: 40vh;
+}
+
+/*sign up styling*/
+.main-container{
+    gap: 100px;
+    display: flex;
+    padding: 25px;
+}
+.form-container{
+    width: 470px;
+    background-color:white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgb(0,0,0,0.1);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    display: block;
+    font-weight: 400;
+    color: #666;
+}
+.form-group input,
+.form-group select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.form-group button{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.radio-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/*table style*/
+.table-container{
+width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgb(0,0,0,0.1);
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+table th,td{
+    border: 1px solid black;
+}
+th,td{
+    padding: 12px;
+    text-align: left;
+
+}
+/*Gallery styling*/
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery-item{
+    width: 400px;
+    background-color: #666;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    border-radius: 10px;
+}
+.gallery-item iframe{
+    width: 100%;
+    height: 200px;
+
+}
+/*contact-container*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contact-details{
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+.contact-details h2{
+    margin-top: 0;
+    font-family: Arial,"Times New Roman";
+
+
+}
+.contact-details p{
+    margin: 5px 0;
+    margin-left: 2px;
+}
+.contact-details a:hover{
+    color: #007bff;
+    cursor: pointer;
+    text-decoration:none;
+    text-underline: none;
+}
+iframe{
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+/*carousel styling*/
+.carousel-item img{
+    width: 100%;
+    height: 70vh;
+}

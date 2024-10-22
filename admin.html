@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <title>Admin</title>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-6">
+        <div class  ="form-container">
+        <h2>Registration  Form</h2>
+        <form action="" >
+            <div class="form-group">
+                <label for="name"><i class="fa-solid fa-signature"></i>Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><i class="fa-solid fa-envelope"></i>Email:</label>
+                <input type="email" id="email" name="email" required >
+            </div>
+            <div class="form-group">
+                 <label for="password"><i class="fa-solid fa-lock"></i>Password:</label>
+                <input type="password" id="password" name="password" required >
+            </div>
+            <div class="form-group">
+                 <label for="confirm-password"><i class="fa-solid fa-lock"></i> Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required >
+            </div>
+            <div class="form-group">
+                <label > Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male" required><i class="fa-solid fa-mars"></i>Male</label>
+                    <label> <input type="radio" name="gender" value="female" required><i class="fa-solid fa-person-dress"></i>Female</label>
+                    <label><input type="radio" name="gender" value="other" required><i class="fa-solid fa-genderless"></i>Other</label>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label for="county"><i class="fa-solid fa-house"></i>County</label>
+                <select name="county" id="county">
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Nakuru">Nakuru</option>
+                    <option value="Eldoret">Eldoret</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit"><i class="fa-solid fa-user-plus"></i>Register</button>
+            </div>
+        </form>
+        <div class="">
+            Already have account? <a href="">Login here</a>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="table-container">
+            <h2>Table with Registered Users</h2>
+            <table>
+            <thead>
+            <tr>
+            <th>Name </th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>County</th>
+            </tr>
+            </thead>
+        <tbody>
+        <tr>
+            <td>John Joe</td>
+            <td> joe@gmail.com</td>
+            <td> Male</td>
+            <td>Naivasha</td>
+        </tr>
+        <tr>
+            <td>Amina Joe</td>
+            <td> Amina@gmail.com</td>
+            <td> Female</td>
+            <td>Nairobi</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+    </div>
+
+</div>
+
+
+
+
+<script src="css/bootstrap/js/bootstrap.min.js">
+
+</script>
+</body>
+</html>
